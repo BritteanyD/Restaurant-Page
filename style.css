@@ -1,0 +1,59 @@
+html {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/030/617/247/non_2x/crimson-background-wallpaper-free-photo.jpg");
+    background-size:cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+  }
+
+.tab {
+    display: inline-block;
+    background-color: rgb(215, 229, 167);
+    padding: 8px 16px;
+    margin-left: 345px;
+    border: 3px solid rgb(46, 39, 25);
+    box-shadow: 1px 1px 8px rgb(215, 229, 167);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+input {
+    margin: 17px;
+    padding: 10px;
+    border: 3px solid rgb(46, 39, 25);
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 1px 1px 4px rgb(215, 229, 167);
+}
+
+h1, li, p {
+    color: rgb(215, 229, 167);
+    text-align: center;
+}
+
+img {
+    border: 1px solid rgb(46, 39, 25);
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px rgb(215, 229, 167);
+    margin-left: 635px;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+    margin-right: 33px;
+}
+
+p, li {
+    font-weight: 600;
+}
+  
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
